@@ -18,11 +18,11 @@ int main () {
 
         memset(carry, 0, sizeof(int) * 25);
 
-        for (int i = 2; i <= input; ++i) {
+        for (int i=2; i <= input; ++i) {
 
             int temporal = i;
 
-            for (int j = 0; j < 25; j++) {
+            for (int j=0; j<25; j++) {
 
                 if (numerosprimos[j] > i){
                     break;
@@ -47,7 +47,7 @@ int main () {
             }
         }
 
-
+    //Driver
         cout << setw(3) << input << "! =";
         for (int l = 0; l <= Maximum; l++) {
             if (l > 0 and l % 15 == 0) cout << endl << "      ";
