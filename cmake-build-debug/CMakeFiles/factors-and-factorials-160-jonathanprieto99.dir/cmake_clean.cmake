@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/factors-and-factorials-160-jonathanprieto99.dir/main.cpp.o"
-  "factors-and-factorials-160-jonathanprieto99.pdb"
   "factors-and-factorials-160-jonathanprieto99"
+  "factors-and-factorials-160-jonathanprieto99.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

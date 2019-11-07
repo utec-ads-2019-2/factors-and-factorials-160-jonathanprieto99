@@ -3,6 +3,8 @@
 #include <map>
 #include <iomanip>
 #include <array>
+#include <string.h>
+
 
 using namespace std;
 
